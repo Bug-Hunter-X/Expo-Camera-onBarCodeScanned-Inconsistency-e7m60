@@ -1,0 +1,1 @@
+This bug occurs when using the Expo `Camera` API with a custom `onBarCodeScanned` function.  The problem is that the function might not be called consistently or at all, even when barcodes are clearly visible within the camera's viewfinder. This leads to unexpected behavior where scanned barcodes are not processed by the application.
